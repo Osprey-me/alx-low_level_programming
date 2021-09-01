@@ -8,7 +8,7 @@
 
 
 /*
-*main - calls the print_alphabet function.
+*print_alphabet - calls the print_alphabet function.
 *
 *Return: Always 0
 */
