@@ -3,7 +3,7 @@
  * Auth: Michael Ndungu Kamotho
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_number - Prints an integer.
