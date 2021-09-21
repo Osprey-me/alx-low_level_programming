@@ -1,9 +1,9 @@
 /*
  * File: 4-free_grid.c
- * Auth: Brennan D Baraban
+ * Auth: Michael Ndungu
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
