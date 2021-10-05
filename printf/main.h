@@ -1,11 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
 #include <limits.h>
 #include <stdarg.h>
 #include <stdlib.h>
 #include <unistd.h>
 
+int _printf(const char *format, ...);
 /* Flag Modifier Macros */
 #define PLUS 1
 #define SPACE 2
@@ -21,6 +23,7 @@
 /* Length Modifier Macros */
 #define SHORT 1
 #define LONG 2
+
 
 /**
  * struct buffer_s - A new type defining a buffer struct.
@@ -57,6 +60,7 @@ typedef struct flag_s
 	unsigned char flag;
 	unsigned char value;
 } flag_t;
+/*_printf Function Prototype*/
 
 int _printf(const char *format, ...);
 
@@ -113,4 +117,4 @@ unsigned int convert_sbase(buffer_t *output, long int num, char *base,
 unsigned int convert_ubase(buffer_t *output, unsigned long int num, char *base,
 		unsigned char flags, int wid, int prec);
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */

@@ -16,7 +16,7 @@ any main function.
 
 Example `main.c`:
 ```
-#include "holberton.h"
+#include main.h"
 
 int main(void)
 {
